@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    --black: black; 
+    --white: white; 
+    --purple: purple; 
+    --grey: grey; 
+    --darkgrey: rgb(82, 82, 82); 
+}
+
+.container-flex  {
+    display: flex;
+    gap: 0px; /* lespace entre les items*/
+    flex-direction: row; /*row permet daligner les elements sur une meme ligne*/
+    flex-wrap: wrap; /*wrap permet de passer à la ligne si les elements ne tiennent pas sur une ligne */
+    align-items: center; /*centre des elements sur la ligne */
+    align-content: center;
+}
+
+.imgfluid {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.annonce{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    background-color:  #7c9ddb;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+ .image-card .myimage{
+    width: 100%;
+} 
+
+.button{
+    margin-top: 20px;
+    margin-bottom: 350px;
+}
+
+.footer{
+    background-color: #7c9ddb;
+    padding: 100px;
+}
